@@ -1,0 +1,15 @@
+{
+    "type": "code",
+    "modid": "toolworksadditions",
+    "name": "Unofficial Toolworks Additions",
+    "authors": [ "Zach2039" ],
+    "description": "Includes patches and additional functionality to Crupette's Toolworks mod.",
+    "version": "1.0.0",
+    "dependencies": {
+		"toolworks": "1.8.1",
+        "game": "*"
+    },
+	"Side": "Universal",
+	"RequiredOnClient": true,
+	"RequiredOnServer": true
+}

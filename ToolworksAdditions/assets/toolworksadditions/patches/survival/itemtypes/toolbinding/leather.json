@@ -1,0 +1,17 @@
+[
+    {
+        "file": "game:itemtypes/resource/leather.json",
+        "op": "add",
+        "path": "/attributes",
+        "value": {
+            "toolPartProperties": {
+                "part": "binding",
+                "durability": 475,
+                "shape": "fibers",
+                "textures": {
+				    "string": {"base": "game:block/leather/{color}" }
+    			}
+            }
+         }
+    }
+]
