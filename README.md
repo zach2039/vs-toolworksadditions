@@ -1,16 +1,22 @@
-Deluxe Tools
+Toolworks Additions
 =================
+
+** Requires [Toolworks](https://mods.vintagestory.at/show/mod/10324) **
 
 Overview
 --------
 
-This mod allows crafting of various variants of tools for different attributes and effects. 
+This mod includes patches and additional functionality to Crupette's Toolworks. 
+
+Changes include:
+
+ * Add Leather as a binding material, of durability 475.
+
+ * Fixes error with crafting Toolwork's resin glue.
 
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
-
-None, at the moment...
 
 
 Future Plans
