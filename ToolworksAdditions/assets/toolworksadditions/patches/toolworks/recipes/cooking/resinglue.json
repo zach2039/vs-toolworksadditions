@@ -2,10 +2,19 @@
 	{
 		"file":"toolworks:recipes/cooking/resinglue.json",
 		"op":"replace",
+		"path":"/perishableProps/transitionedStack",
+		"value":{
+			"type":"item",
+			"code":"game:glueportion-resin-cold"
+		}
+	},
+	{
+		"file":"toolworks:recipes/cooking/resinglue.json",
+		"op":"replace",
 		"path":"/ingredients",
 		"value":[
 			{
-				"code":"game:resin",
+				"code":"resin",
 				"validStacks":[
 					{
 						"type":"item",
@@ -25,15 +34,7 @@
 			"base":"game:block/food/meal/liquid"
 		}
 	},
-	{
-		"file":"toolworks:recipes/cooking/resinglue.json",
-		"op":"replace",
-		"path":"/perishableProps/transitionedStack",
-		"value":{
-			"type":"item",
-			"code":"game:glueportion-resin-cold"
-		}
-	},
+	
 	{
 		"file":"toolworks:recipes/cooking/resinglue.json",
 		"op":"replace",
