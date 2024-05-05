@@ -28,7 +28,11 @@ Changes include:
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
 
- * `PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart`: Toggles patch that fixes crash with using gluing items on nothing/air; defaults to `true`.
+ * `PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart`: Enables or disables patch that fixes crash with using gluing items on nothing/air; defaults to `true`.
+ 
+ * `ApplyToolDurabilityConfigToToolHeads`: Enables or disables vanilla's tool durability modifier for tool heads; defaults to `true`.
+ 
+ * `ApplyToolDurabilityConfigToToolParts`: Enables or disables vanilla's tool durability modifier for tool parts; defaults to `true`.
 
 
 Future Plans

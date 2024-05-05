@@ -61,15 +61,26 @@ namespace ToolworksAdditions
 			api.Logger.Notification("Loaded Toolworks Additions!");
 		}
 
-		private void ApplyToolDurabilityConfigToParts(ICoreServerAPI sapi)
+		private void ApplyToolDurabilityConfig(ICoreServerAPI sapi)
 		{
             if (typeof(SurvivalCoreSystem).GetField("config", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(sapi.ModLoader.GetModSystem<SurvivalCoreSystem>()) is SurvivalConfig survivalConfig)
             {
                 foreach (CollectibleObject obj in sapi.World.Collectibles)
                 {
-					if (obj.Attributes != null && (obj.Attributes.KeyExists("toolPartPropertiesByType") || obj.Attributes.KeyExists("toolHeadProperties")))
+					if (obj.Attributes != null && obj.Durability != 1) // Hopefully this is a decent check to make sure items have durability already
 					{
-						if (obj.Durability != 1) // Hopefully this is a decent check to make sure items have durability already
+						bool doModify = false;
+
+						if (ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolHeads && (obj.Attributes.KeyExists("toolHeadPropertiesByType") || obj.Attributes.KeyExists("toolHeadProperties")))
+						{
+							doModify = true;
+						}
+						else if (ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolParts && (obj.Attributes.KeyExists("toolPartPropertiesByType") || obj.Attributes.KeyExists("toolPartProperties")))
+						{
+							doModify = true;
+						}
+
+						if (doModify)
 						{
 							obj.Durability = (int)((float)obj.Durability * survivalConfig.ToolDurabilityModifier);
 						}
@@ -96,10 +107,10 @@ namespace ToolworksAdditions
 				.RegisterMessageType<SyncConfigClientPacket>()
 				.SetMessageHandler<SyncConfigClientPacket>((player, packet) => {});
 
-			// Apply tool durability modifier to parts, if enabled
-			if (ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToParts)
+			// Apply tool durability modifier to parts and/or heads, if enabled
+			if (ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolParts || ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolHeads)
 			{
-				ApplyToolDurabilityConfigToParts(sapi);
+				ApplyToolDurabilityConfig(sapi);
 			}
 		}
 
@@ -110,8 +121,10 @@ namespace ToolworksAdditions
 				.RegisterMessageType<SyncConfigClientPacket>()
 				.SetMessageHandler<SyncConfigClientPacket>(p => {
 					this.Mod.Logger.Event("Received config settings from server");
-					ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToParts = p.ApplyToolDurabilityConfigToParts;
 					ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart = p.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart;
+					ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolHeads = p.ApplyToolDurabilityConfigToToolHeads;
+					ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolParts = p.ApplyToolDurabilityConfigToToolParts;
+					
 				});
 		}
 		

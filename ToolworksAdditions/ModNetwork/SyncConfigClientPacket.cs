@@ -7,6 +7,8 @@ namespace ToolworksAdditions.ModNetwork
     {
         public bool PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart;
 
-        public bool ApplyToolDurabilityConfigToParts;
+        public bool ApplyToolDurabilityConfigToToolParts;
+        
+        public bool ApplyToolDurabilityConfigToToolHeads;
     }
 }
