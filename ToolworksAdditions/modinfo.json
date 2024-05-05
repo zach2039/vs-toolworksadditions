@@ -3,6 +3,7 @@
     "modid": "toolworksadditions",
     "name": "Unofficial Toolworks Additions",
     "authors": [ "Zach2039" ],
+    "contributors": [ "Crupette" ],
     "description": "Includes patches and additional functionality to Crupette's Toolworks mod.",
     "version": "1.0.0",
     "dependencies": {

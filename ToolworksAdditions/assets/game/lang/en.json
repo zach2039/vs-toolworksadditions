@@ -1,0 +1,7 @@
+{
+    "item-glueportion-resin-hot": "Resin glue",
+    "item-glueportion-resin-cold": "Hardened resin glue",
+    "itemdesc-glueportion-resin-hot": "Use this on clutter to repair it",
+    "itemdesc-glueportion-resin-cold": "<font color=\"burlywood\">Useless, until the pot is re-heated to make fresh glue</font>",
+    "item-handbooktext-glueportion-resin-*": "Resin glue is made from <a href=\"handbook://item-resin\">resin</a>. Put each ingredient in a cooking pot over a fire - fill the first two slots in the pot - and heat it up to make this sticky substance. Will leave the cooking pot in a <a href=\"handbook://block-dirtyclaypot-empty\">dirty state</a>!<br><br>Glue must be used within a few hours after making it, otherwise it will harden. If hardened, it can be re-heated in a cooking pot.<br><br>Glue can be used to repair various clutter blocks found in ruins, so that the player then has a chance to obtain those blocks when breaking them, instead of them immediately shattering (shatter behavior depends on world settings).  <hk>rightmouse</hk> click the clutter with the pot of glue to repair it somewhat.  The in-game Block Info overlay (Ctrl + B) gives more information."
+}

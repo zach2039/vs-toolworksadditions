@@ -24,7 +24,8 @@
                 "${workspaceFolder}/ToolworksAdditions/bin/Debug/Mods"
             ],
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "justMyCode": false
         },
         {
             "name": "Launch Server",
@@ -44,7 +45,8 @@
                 "${workspaceFolder}/ToolworksAdditions/bin/Debug/Mods"
             ],
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "justMyCode": false
         },
         {
             "name": "CakeBuild",

@@ -11,9 +11,7 @@ This mod includes patches and additional functionality to Crupette's Toolworks.
 Changes include:
 
  * Add any color leather as a binding material, of durability 475.
-
- * Fix error with crafting Toolwork's resin glue.
-
+ 
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
