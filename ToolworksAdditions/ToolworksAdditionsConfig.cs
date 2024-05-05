@@ -9,5 +9,9 @@ namespace ToolworksAdditions
     public class ToolworksAdditionsConfig
     {
         public static ToolworksAdditionsConfig Loaded { get; set; } = new ToolworksAdditionsConfig();
+
+        public bool PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart { get; set; } = true;
+
+        public bool ApplyToolDurabilityConfigToParts { get; set; } = true;
     }
 }

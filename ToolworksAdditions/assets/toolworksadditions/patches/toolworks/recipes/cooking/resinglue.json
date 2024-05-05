@@ -1,0 +1,31 @@
+[
+	{
+		"side": "Server",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"file":"toolworks:recipes/cooking/resinglue.json",
+		"op":"addmerge",
+		"path": "/ingredients/0/portionSizeLitres",
+		"value": 0.1
+	},
+	{
+		"side": "Server",
+		"file":"toolworks:recipes/cooking/resinglue.json",
+		"op":"replace",
+		"path": "/perishableProps/transitionedStack/code",
+		"value": "game:glueportion-resin-cold"
+	},
+	{
+		"side": "Server",
+		"file":"toolworks:recipes/cooking/resinglue.json",
+		"op":"replace",
+		"path": "/ingredients/0/validStacks/0/code",
+		"value": "game:resin"
+	},
+	{
+		"side": "Client",
+		"file":"toolworks:recipes/cooking/resinglue.json",
+		"op":"replace",
+		"path": "/shape/base",
+		"value": "game:block/food/meal/liquid"
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"side":"Server",
+		"file":"toolworks:patches/itemtypes/toolhead/toolheads.json",
+		"op":"add",
+		"path":"/enabled",
+		"value":"false"
+	}
+]
