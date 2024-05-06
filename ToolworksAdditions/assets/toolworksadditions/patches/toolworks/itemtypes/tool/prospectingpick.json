@@ -1,0 +1,14 @@
+[
+	{
+		"file":"toolworks:itemtypes/tool/prospectingpick.json",
+		"op":"addmerge",
+		"path":"/storageFlags",
+		"value":5
+	},
+	{
+		"file":"toolworks:itemtypes/tool/prospectingpick.json",
+		"op":"addmerge",
+		"path":"/attributes/slotRefillIdentifier",
+		"value":"propick"
+	}
+]

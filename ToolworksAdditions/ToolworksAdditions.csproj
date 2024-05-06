@@ -39,6 +39,10 @@
       <HintPath>toolworks.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ProspectTogether">
+      <HintPath>ProspectTogether.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
