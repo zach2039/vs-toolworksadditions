@@ -1,3 +1,7 @@
+### v1.19.x-1.1.1
+
+ - Fix compatibility issue with MorePiles that prevented sticks and bones from being placed if vanilla behavior was disabled
+
 ### v1.19.x-1.1.0
 
  - Add harmony patch to enable compat for ProspectTogether, if present

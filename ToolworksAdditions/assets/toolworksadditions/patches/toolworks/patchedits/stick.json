@@ -1,0 +1,8 @@
+[
+    {
+        "file":"toolworks:patches/survival/itemtypes/toolhandle/stick.json",
+        "op":"replace",	
+        "path":"/0/op",
+         "value":"addmerge"
+    }   
+]

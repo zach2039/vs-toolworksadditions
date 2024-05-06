@@ -1,0 +1,14 @@
+[
+    {
+        "file":"toolworks:patches/survival/itemtypes/toolhandle/bone.json",
+        "op":"replace",	
+        "path":"/0/op",
+         "value":"addmerge"
+    }   ,
+    {
+        "file":"toolworks:patches/survival/itemtypes/toolhandle/bone.json",
+        "op":"replace",	
+        "path":"/1/op",
+         "value":"addmerge"
+    }   
+]
