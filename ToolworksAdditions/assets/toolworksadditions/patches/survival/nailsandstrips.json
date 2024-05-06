@@ -1,0 +1,117 @@
+[
+	{
+		"file":"game:itemtypes/resource/metalnailsandstrips.json",
+		"op":"addmerge",
+		"path":"/attributesByType",
+		"value":{
+			"*-copper": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":250,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/copper1"
+						}
+					}
+				}
+			},
+			"*-tinbronze": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":400,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/tinbronze1"
+						}
+					}
+				}
+			},
+			"*-bismuthbronze": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":500,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/bismuthbronze1"
+						}
+					}
+				}
+			},
+			"*-blackbronze": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":600,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/blackbronze1"
+						}
+					}
+				}
+			},
+			"*-iron": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":900,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/iron1"
+						}
+					}
+				}
+			},
+			"*-meteoriciron": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":1200,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/meteoriciron1"
+						}
+					}
+				}
+			},
+			"*-steel": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":1800,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/steel1"
+						}
+					}
+				}
+			},
+			"*-gold": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":125,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/gold1"
+						}
+					}
+				}
+			},
+			"*-silver": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":125,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/silver1"
+						}
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"side": "Server",
+		"dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+		"file": "toolworks:recipes/grid/handle.json",
+		"path": "/-",
+		"op": "addmerge",
+		"value": {
+			"ingredientPattern": "ALS",
+			"ingredients": {
+				"L": { "type": "block", "code": "ancienttools:beam-*", "name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"]},
+				"S": { "type": "item", "code": "toolworks:saw-bound-*", "isTool": true  },
+				"A": { "type": "item", "code": "toolworks:adze-bound-*", "isTool": true  }
+			},
+			"width": 3,
+			"height": 1,
+			"name": "handle",
+			"output": { "type": "item", "code": "toolworks:handle-{wood}-none-dry", "quantity": 1  }
+		}
+	}
+]

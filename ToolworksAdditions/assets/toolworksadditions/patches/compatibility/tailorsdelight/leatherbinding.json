@@ -1,0 +1,23 @@
+[
+	{
+		"side": "Server",
+		"dependsOn": [
+			{ "modid": "tailorsdelight" }
+		],
+		"file": "tailorsdelight:itemtypes/resource/leather.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": { 
+			"thin": {
+				"toolPartProperties": {
+					"part": "binding",
+					"durability": 475,
+					"shape": "fibers",
+					"textures": {
+						"string": {"base":  "game:item/armor/cloth/brown"}
+					}
+				}
+			}
+		}
+	}
+]

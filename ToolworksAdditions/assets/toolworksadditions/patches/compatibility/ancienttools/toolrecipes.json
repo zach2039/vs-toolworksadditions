@@ -1,0 +1,22 @@
+[
+	{
+		"side": "Server",
+		"dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+		"file": "toolworks:recipes/grid/tool/adze.json", 
+		"op": "add", 
+		"path": "/enabled", 
+		"value": false 
+	},
+	{
+		"side": "Server",
+		"dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+		"file": "toolworks:recipes/grid/tool/mallet.json", 
+		"op": "add", 
+		"path": "/enabled",
+		"value": false
+	}
+]

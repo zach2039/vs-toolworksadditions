@@ -1,0 +1,50 @@
+[
+    {
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/mallethead.json",
+        "path": "/durabilityByType",
+        "op": "add",
+        "value": {
+            "@mallethead-(chert|granite|andesite|basalt|peridotite)": 50,
+            "mallethead-flint": 60,
+            "mallethead-obsidian": 90,
+            "@mallethead-(silver|gold)": 125,
+            "mallethead-copper": 250,
+            "mallethead-tinbronze": 400,
+            "mallethead-bismuthbronze": 500,
+            "mallethead-blackbronze": 600,
+            "mallethead-iron": 900,
+            "mallethead-meteoriciron": 1200,
+            "mallethead-steel": 1800
+        }
+    },
+    {   
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/mallethead.json",
+        "op": "addmerge",
+        "path": "/attributes",
+        "value":{
+            "toolHeadProperties": {
+                "tool": "mallet"
+            },
+            "bindSpotTransformByType": {
+                "translation": { "z": 0.025 }
+            }
+        }
+    },
+    {
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/mallethead.json",
+        "path": "/behaviors/0",
+        "op": "remove"
+    }
+]

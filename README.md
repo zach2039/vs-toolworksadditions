@@ -25,7 +25,11 @@ Changes include:
  * Fix compatibility issue with XSkills that prevented toolheads from being placed.
 
  * Fix compatibility issue with ProspectTogether that prevented prospecting results from being recorded properly.
-  
+
+ * Add additional compatibility with AncientTools, StillNecessaries, PrimitiveSurvival, and TailorsDelight. Credits to ErisLuna!
+
+ * Add any metal nails and strips as a binding material, of varying durabilities. Credits to ErisLuna!
+
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------

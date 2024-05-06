@@ -1,0 +1,57 @@
+[
+    {
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/adzehead.json",
+        "path": "/durabilityByType",
+        "op": "addmerge",
+        "value": {
+            "@adzehead-(chert|granite|andesite|basalt|peridotite)": 50,
+            "adzehead-flint": 60,
+            "adzehead-obsidian": 90,
+            "@adzehead-(silver|gold)": 125,
+            "adzehead-copper": 250,
+            "adzehead-tinbronze": 400,
+            "adzehead-bismuthbronze": 500,
+            "adzehead-blackbronze": 600,
+            "adzehead-iron": 900,
+            "adzehead-meteoriciron": 1200,
+            "adzehead-steel": 1800
+        }
+    },
+    {   
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/adzehead.json",
+        "op": "addmerge",
+        "path": "/attributes",
+        "value":{
+            "toolHeadProperties": {
+                "tool": "adze"
+            },
+            "bindSpotTransformByType": {
+                "@adze-(chert|granite|peridotite|andesite|basalt|flint|obsidian)":
+                {
+                    "translation": { "z": 0.025 }
+                },
+                "*":
+                {
+                    "translation": { "z": 0.075 }
+                }
+            }
+        }
+    },
+    {
+        "side": "Server",
+        "dependsOn": [
+			{ "modid": "ancienttools" }
+		],
+        "file": "ancienttools:itemtypes/toolhead/adzehead.json",
+        "path": "/behaviors/0",
+        "op": "remove"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "dependsOn": [
+			{ "modid": "primitivesurvival" }
+		],
+        "file": "toolworks:itemtypes/tool/hoe.json",
+        "op": "addmerge",
+        "path": "/behaviors/-",
+        "value": {
+            "name": "Toolworks.Furrowing"
+        }
+    }
+]
