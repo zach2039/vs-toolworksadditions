@@ -1,6 +1,9 @@
 [
     {   
         "side": "Server",
+        "dependsOn": [
+            { "modid": "stillnecessaries" }
+        ],
         "file": "game:itemtypes/toolhead/hoehead.json",
         "op": "addmerge",
         "path": "/attributes",

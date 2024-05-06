@@ -1,7 +1,7 @@
 [
 	{
 		"file":"game:itemtypes/resource/leather.json",
-		"op":"add",
+		"op":"addmerge",
 		"path":"/attributes",
 		"value":{
 			"toolPartProperties":{

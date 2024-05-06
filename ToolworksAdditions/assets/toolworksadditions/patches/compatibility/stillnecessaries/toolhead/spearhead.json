@@ -1,17 +1,20 @@
 [
-    {   
-        "side": "Server",
-        "file": "game:itemtypes/toolhead/spearhead.json",
-        "op": "addmerge",
-        "path": "/attributes",
-        "value":{
-            "sharpenable": true,
-            "onGrindstoneTransform": {
-		        translation: { x: -0.2, y: 0.3, z: 0.4 },
-		        rotation: { x: 50, y: 0, z: 0 },
-		        origin: { x: 0.5, y: 0.1, z: 0.5 },
-		        scale: 1
-            }
-        }
-    }
+	{   
+		"side": "Server",
+		"dependsOn": [
+			{ "modid": "stillnecessaries" }
+		],
+		"file": "game:itemtypes/toolhead/spearhead.json",
+		"op": "addmerge",
+		"path": "/attributes",
+		"value":{
+			"sharpenable": true,
+			"onGrindstoneTransform": {
+				"translation": { "x": -0.2, "y": 0.3, "z": 0.4 },
+				"rotation": { "x": 50, "y": 0, "z": 0 },
+				"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+				"scale": 1
+			}
+		}
+	}
 ]

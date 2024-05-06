@@ -3,6 +3,7 @@
  - Add harmony patch to enable compat for ProspectTogether, if present
  - Fix compatibility issue with ProspectTogether that prevented prospecting results from being recorded properly
  - Add additional compatibility with AncientTools, StillNecessaries, PrimitiveSurvival, and TailorsDelight
+ - Refactor compat with xskills, disabling some toolworks patches
  - Add any metal nails and strips as a binding material, of varying durabilities
 
 ### v1.19.x-1.0.0
