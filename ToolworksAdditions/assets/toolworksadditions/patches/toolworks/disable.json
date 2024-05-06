@@ -1,28 +1,37 @@
 [
-	{
-		"file":"toolworks:compatibility/xskills119/patches/toolheads.json",
-		"op":"add",
-		"path":"/enabled",
-		"value":"false"
-	},
-	{
-		"file":"toolworks:compatibility/ancienttools/patches/toolhead-adzehead.json",
-		"op":"add",
-		"path":"/enabled",
-		"value":"false"
-	},
-	{
-		"file":"toolworks:compatibility/ancienttools/patches/toolhead-mallethead.json",
-		"op":"add",
-		"path":"/enabled",
-		"value":"false"
-	},
-	{
-		"file":"toolworks:compatibility/primitivesurvival/patches/hoe.json",
-		"op":"add",
-		"path":"/enabled",
-		"value":"false"
-	},	
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/0/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/1/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/2/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/3/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/4/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/5/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/6/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/7/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/8/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/9/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/10/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/11/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/12/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/13/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/14/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/15/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/16/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/17/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/18/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/xskills119/patches/toolheads.json",	"op":"add",	"path":"/19/enabled", "value":"false" },
+
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-adzehead.json", "op":"add", "path":"/0/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-adzehead.json", "op":"add", "path":"/1/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-adzehead.json", "op":"add", "path":"/2/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-adzehead.json", "op":"add", "path":"/3/enabled", "value":"false" },
+
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-mallethead.json", "op":"add", "path":"/0/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-mallethead.json", "op":"add", "path":"/1/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-mallethead.json", "op":"add", "path":"/2/enabled", "value":"false" },
+	{ "file":"toolworks:compatibility/ancienttools/patches/toolhead-mallethead.json", "op":"add", "path":"/3/enabled", "value":"false" },
+
+	{ "file":"toolworks:compatibility/primitivesurvival/patches/hoe.json", "op":"add", "path":"/0/enabled", "value":"false" },	
+	
 	{
 		"_comment": "Removing patche that would be applied if xskills was not enabled, since toolworksadditions:patches/compatibility/xskills/toolheads.json works for both xskills enabled and disabled (hopefully)",
 		"file":"toolworks:patches/survival/itemtypes/toolhead/axehead.json",
