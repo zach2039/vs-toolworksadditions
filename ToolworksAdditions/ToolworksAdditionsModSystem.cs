@@ -57,7 +57,7 @@ namespace ToolworksAdditions
 				}
 
 				// Mod compatibility with ProspectTogether, but only if that mod is present
-				if (api.ModLoader.IsModEnabled("prospecttogether"))
+				if (ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults && api.ModLoader.IsModEnabled("prospecttogether"))
 				{
 					harmony.PatchCategory("ToolworksAdditions_CollectibleBehaviorProspecting");
 					api.Logger.Notification("Applied ToolworksAdditions_CollectibleBehaviorProspecting compatibility patch for ProspectTogether from Toolworks Additions!");
@@ -102,7 +102,10 @@ namespace ToolworksAdditions
 			// Send connecting players config settings
 			this.serverChannel.SendPacket(
 				new SyncConfigClientPacket {
-					PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart = ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart
+					PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart = ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart,
+					PatchToolworksCollectibleBehaviorProspectingPrintProbeResults = ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults,
+					ApplyToolDurabilityConfigToToolHeads = ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolHeads,
+					ApplyToolDurabilityConfigToToolParts = ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolParts
 				}, player);
 		}
 
@@ -130,6 +133,7 @@ namespace ToolworksAdditions
 				.SetMessageHandler<SyncConfigClientPacket>(p => {
 					this.Mod.Logger.Event("Received config settings from server");
 					ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart = p.PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart;
+					ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults = p.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults;
 					ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolHeads = p.ApplyToolDurabilityConfigToToolHeads;
 					ToolworksAdditionsConfig.Loaded.ApplyToolDurabilityConfigToToolParts = p.ApplyToolDurabilityConfigToToolParts;
 					

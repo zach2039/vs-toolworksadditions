@@ -1,7 +1,7 @@
 Toolworks Additions
 =================
 
-**Requires [Toolworks](https://mods.vintagestory.at/show/mod/10324)**
+**An unofficial Toolworks addon. Requires [Toolworks](https://mods.vintagestory.at/show/mod/10324)**
 
 Overview
 --------
@@ -23,12 +23,16 @@ Changes include:
  * Fix compatibility issue with ExpandedFoods that prevented resin glue from being crafted.
  
  * Fix compatibility issue with XSkills that prevented toolheads from being placed.
+
+ * Fix compatibility issue with ProspectTogether that prevented prospecting results from being recorded properly.
   
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
 
- * `PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart`: Enables or disables patch that fixes crash with using gluing items on nothing/air; defaults to `true`.
+ * `PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart`: Enables or disables harmony patch that fixes crash with using gluing items on nothing/air; defaults to `true`.
+ 
+ * `PatchToolworksCollectibleBehaviorProspectingPrintProbeResults`: Enables or disables harmony patch that adds compatibility with ProspectTogether; defaults to `true`.
  
  * `ApplyToolDurabilityConfigToToolHeads`: Enables or disables vanilla's tool durability modifier for tool heads; defaults to `true`.
  
@@ -50,4 +54,4 @@ Known Issues
 Extras
 --------
 
- * All credit for Toolworks goes to Crupette. This addon mod is not officially endorced by Crupette.
+ * All credit for Toolworks goes to Crupette. Crupette has given me permission to publish this addon mod.
