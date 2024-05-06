@@ -20,18 +20,18 @@ Changes include:
  
  * Fix resin glue recipe.
  
- * Fix compatibility issue with ExpandedFoods that prevented resin glue from being crafted.
+ * Fix compatibility issue with [ExpandedFoods](https://mods.vintagestory.at/expandedfoods) that prevented resin glue from being crafted.
  
- * Fix compatibility issue with XSkills that prevented toolheads from being placed.
+ * Fix compatibility issue with [XSkills](https://mods.vintagestory.at/show/mod/247) that prevented toolheads from being placed.
 
- * Fix compatibility issue with ProspectTogether that prevented prospecting results from being recorded properly.
+ * Fix compatibility issue with [ProspectTogether](https://mods.vintagestory.at/prospecttogether) that prevented prospecting results from being recorded properly.
 
- * Add additional compatibility with AncientTools, StillNecessaries, PrimitiveSurvival, and TailorsDelight. Credits to ErisLuna!
+ * Add additional compatibility with [AncientTools](https://mods.vintagestory.at/ancienttools), [StillNecessaries](https://mods.vintagestory.at/show/mod/5906), [PrimitiveSurvival](https://mods.vintagestory.at/primitivesurvival), and [TailorsDelight](https://mods.vintagestory.at/tailorsdelight). Credits to ErisLuna!
 
  * Add any metal nails and strips as a binding material, of varying durabilities. Credits to ErisLuna!
 
- * Fix compatibility issue with MorePiles that prevented sticks and bones from being placed if vanilla storage behavior was disabled.
- 
+ * Fix compatibility issue with [MorePiles](https://mods.vintagestory.at/morepiles) that prevented sticks and bones from being placed if vanilla storage behavior was disabled.
+
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
