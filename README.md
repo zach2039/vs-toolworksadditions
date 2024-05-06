@@ -30,6 +30,8 @@ Changes include:
 
  * Add any metal nails and strips as a binding material, of varying durabilities. Credits to ErisLuna!
 
+ * Fix compatibility issue with MorePiles that prevented sticks and bones from being placed if vanilla storage behavior was disabled.
+ 
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
