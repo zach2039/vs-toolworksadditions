@@ -56,6 +56,12 @@ namespace ToolworksAdditions
 					api.Logger.Notification("Applied ToolworksAdditions_CollectibleBehaviorToolGluing patch from Toolworks Additions!");
 				}
 
+				if (ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorToolBindingOnToolBreak)
+				{
+					harmony.PatchCategory("ToolworksAdditions_CollectibleBehaviorToolBinding");
+					api.Logger.Notification("Applied ToolworksAdditions_CollectibleBehaviorToolBinding patch from Toolworks Additions!");
+				}
+
 				// Mod compatibility with ProspectTogether, but only if that mod is present
 				if (ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults && api.ModLoader.IsModEnabled("prospecttogether"))
 				{

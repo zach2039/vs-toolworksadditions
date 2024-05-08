@@ -12,6 +12,8 @@ namespace ToolworksAdditions
 
         public bool PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart { get; set; } = true;
 
+        public bool PatchToolworksCollectibleBehaviorToolBindingOnToolBreak { get; set; } = true;
+
         public bool PatchToolworksCollectibleBehaviorProspectingPrintProbeResults { get; set; } = true;
 
         public bool ApplyToolDurabilityConfigToToolHeads { get; set; } = true;

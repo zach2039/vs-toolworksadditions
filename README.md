@@ -32,11 +32,15 @@ Changes include:
 
  * Fix compatibility issue with [MorePiles](https://mods.vintagestory.at/morepiles) that prevented sticks and bones from being placed if vanilla storage behavior was disabled.
 
+ * Change behavior of glued bindings to allow drop after tool break.
+
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
 
  * `PatchToolworksCollectibleBehaviorToolGluingOnHeldInteractStart`: Enables or disables harmony patch that fixes crash with using gluing items on nothing/air; defaults to `true`.
+
+ * `PatchToolworksCollectibleBehaviorToolBindingOnToolBreak`: Enables or disables harmony patch that changes tool break behavior of glued bindings; defaults to `true`.
  
  * `PatchToolworksCollectibleBehaviorProspectingPrintProbeResults`: Enables or disables harmony patch that adds compatibility with ProspectTogether; defaults to `true`.
  
@@ -57,8 +61,6 @@ Known Issues
  * Resin glue pot will not display item description properly, listing contents as "unknown" instead. This seems to be a vanilla bug related to cooking recipes that use `dirtyPot: true` and item descriptions on `dirtyPotOutput`.
 
  * `[Error] [toolworks] Exception: Could not load file or assembly 'butchering...` is an error related to Toolworks trying to load Butchering's DLL no matter if enabled or not; I am unsure if I can fix this or if Toolworks will need to be updated.
-
- * Bindings that are reinforced with glue will not be returned on tool break, even if they have durability remaining. This is a bug with Toolworks that I will try to fix at some point, if able.
 
 
 Extras

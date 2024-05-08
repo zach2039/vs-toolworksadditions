@@ -1,3 +1,8 @@
+### v1.19.x-1.2.0
+
+ - Buff durability on strip bindings by 150; requires config file reset
+ - Change behavior of glued bindings to allow drop after tool break
+
 ### v1.19.x-1.1.1
 
  - Fix compatibility issue with MorePiles that prevented sticks and bones from being placed if vanilla behavior was disabled
