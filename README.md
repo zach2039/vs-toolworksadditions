@@ -52,7 +52,7 @@ Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 Future Plans
 --------
 
- * More Wildcraft Trees compatibility, such as more tool handles of suitable wood.
+ * More [Wildcraft Trees](https://mods.vintagestory.at/show/mod/9909) compatibility, such as more tool handles of suitable wood.
 
 
 Known Issues
