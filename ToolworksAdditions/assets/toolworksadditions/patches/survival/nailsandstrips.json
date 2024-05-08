@@ -16,6 +16,18 @@
 					}
 				}
 			},
+			"*-cupronickel": {
+				"toolPartProperties":{
+					"part":"binding",
+					"durability":400,
+					"shape":"fibers",
+					"textures":{
+						"string":{
+							"base":"game:block/metal/sheet/cupronickel1"
+						}
+					}
+				}
+			},
 			"*-tinbronze": {
 				"toolPartProperties":{
 					"part":"binding",
