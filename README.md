@@ -58,7 +58,7 @@ Known Issues
 
  * `[Error] [toolworks] Exception: Could not load file or assembly 'butchering...` is an error related to Toolworks trying to load Butchering's DLL no matter if enabled or not; I am unsure if I can fix this or if Toolworks will need to be updated.
 
- * Bindings that are reinforced with glue will not be returned on tool break, even if they have durability remaining.
+ * Bindings that are reinforced with glue will not be returned on tool break, even if they have durability remaining. This is a bug with Toolworks that I will try to fix at some point, if able.
 
 
 Extras
