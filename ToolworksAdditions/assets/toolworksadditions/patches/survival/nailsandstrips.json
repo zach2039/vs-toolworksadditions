@@ -7,7 +7,7 @@
 			"*-copper": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":250,
+					"durability":400,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -19,7 +19,7 @@
 			"*-tinbronze": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":400,
+					"durability":550,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -31,7 +31,7 @@
 			"*-bismuthbronze": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":500,
+					"durability":650,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -43,7 +43,7 @@
 			"*-blackbronze": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":600,
+					"durability":750,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -55,7 +55,7 @@
 			"*-iron": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":900,
+					"durability":1050,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -67,7 +67,7 @@
 			"*-meteoriciron": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":1200,
+					"durability":1350,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -79,7 +79,7 @@
 			"*-steel": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":1800,
+					"durability":1950,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -91,7 +91,7 @@
 			"*-gold": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":125,
+					"durability":275,
 					"shape":"fibers",
 					"textures":{
 						"string":{
@@ -103,7 +103,7 @@
 			"*-silver": {
 				"toolPartProperties":{
 					"part":"binding",
-					"durability":125,
+					"durability":275,
 					"shape":"fibers",
 					"textures":{
 						"string":{
