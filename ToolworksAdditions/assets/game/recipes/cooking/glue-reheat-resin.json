@@ -1,0 +1,36 @@
+{
+	"code":"glueportion-resin-cold",
+	"perishableProps":{
+		"type":"Harden",
+		"freshHours":{
+			"avg":4
+		},
+		"transitionHours":{
+			"avg":0.01
+		},
+		"transitionRatio":1,
+		"transitionedStack":{
+			"type":"item",
+			"code":"glueportion-resin-cold"
+		}
+	},
+	"shape":{
+		"base":"block/food/meal/liquid"
+	},
+	"ingredients":[
+		{
+			"code":"hardenedglue",
+			"validStacks":[
+				{
+					"type":"item",
+					"code":"glueportion-resin-cold"
+				}
+			],
+			"minQuantity":1,
+			"maxQuantity":1,
+			"portionSizeLitres":0.01
+		}
+	],
+	"dirtyPot":true,
+	"dirtyPotOutput":"glueportion-resin-hot"
+}
