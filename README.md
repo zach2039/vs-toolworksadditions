@@ -18,7 +18,7 @@ Changes include:
  
  * Fix crash when right-clicking with glue pot in air.
  
- * Fix resin glue recipe.
+ * Fix resin glue recipe; made resin glue reheatable.
  
  * Fix compatibility issue with [ExpandedFoods](https://mods.vintagestory.at/expandedfoods) that prevented resin glue from being crafted.
  

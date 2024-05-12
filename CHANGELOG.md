@@ -1,3 +1,7 @@
+### v1.19.x-1.2.1
+
+ - Fix resin glue not reheatable (forgive me, for I have added recipe to game domain)
+
 ### v1.19.x-1.2.0
 
  - Buff durability on strip bindings by 150; requires config file reset

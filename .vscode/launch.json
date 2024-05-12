@@ -41,6 +41,7 @@
             "preLaunchTask": "build",
             "args": [
                 "--tracelog",
+                "--ModDir",
                 "--addModPath",
                 "${workspaceFolder}/ToolworksAdditions/bin/Debug/Mods"
             ],
