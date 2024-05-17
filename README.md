@@ -60,6 +60,8 @@ Future Plans
 Known Issues
 --------
 
+ * **If you have an existing config file and use v1.3.0, you must remove your config file and let it regenerate. Failing to do so will result in handles of incorrect durability.**
+
  * Resin glue pot will not display item description properly, listing contents as "unknown" instead. This seems to be a vanilla bug related to cooking recipes that use `dirtyPot: true` and item descriptions on `dirtyPotOutput`.
 
  * `[Error] [toolworks] Exception: Could not load file or assembly 'butchering...` is an error related to Toolworks trying to load Butchering's DLL no matter if enabled or not; I am unsure if I can fix this or if Toolworks will need to be updated.
