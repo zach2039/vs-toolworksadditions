@@ -1,6 +1,7 @@
 ### v1.19.x-1.3.0
 
  - Add compat with wildcraft trees; thanks to gabb!
+ - Fix some missing vanilla handle lang entries for Toolworks
 
 ### v1.19.x-1.2.1
 
