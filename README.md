@@ -34,6 +34,8 @@ Changes include:
 
  * Change behavior of glued bindings to allow drop after tool break.
 
+ * Add toolhandles of wood from [Wildcraft Trees](https://mods.vintagestory.at/wildcrafttree). Thanks to gabb!
+
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
@@ -52,7 +54,7 @@ Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 Future Plans
 --------
 
- * More [Wildcraft Trees](https://mods.vintagestory.at/show/mod/9909) compatibility, such as more tool handles of suitable wood.
+ * None, atm.
 
 
 Known Issues

@@ -1,3 +1,7 @@
+### v1.19.x-1.3.0
+
+ - Add compat with wildcraft trees; thanks to gabb!
+
 ### v1.19.x-1.2.1
 
  - Fix resin glue not reheatable (forgive me, for I have added recipe to game domain)
