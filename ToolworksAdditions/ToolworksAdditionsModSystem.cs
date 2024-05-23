@@ -1,13 +1,12 @@
-﻿using Vintagestory.API.Client;
+﻿using System.Reflection;
+using HarmonyLib;
+
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
 using Vintagestory.API.Server;
+using Vintagestory.GameContent;
 
 using ToolworksAdditions.ModNetwork;
-using HarmonyLib;
-using Vintagestory.GameContent;
-using System.Reflection;
-using System;
 
 namespace ToolworksAdditions
 {
@@ -75,12 +74,25 @@ namespace ToolworksAdditions
 			api.Logger.Notification("Loaded Toolworks Additions!");
 		}
 
+		public override void AssetsFinalize(ICoreAPI api)
+		{
+			if (api is ICoreServerAPI sapi)
+			{
+				if (api.ModLoader.IsModEnabled("danatweaks"))
+				{
+					ModCompat.DataTweaksCompat.ApplyDanaTweaksScytheMoreChanges(sapi);
+
+					api.Logger.Notification("Applied DanaTweaks ScytheMore compatibility changes from Toolworks Additions!");
+				}
+			}
+		}
+
 		private void ApplyToolDurabilityConfig(ICoreServerAPI sapi)
 		{
-            if (typeof(SurvivalCoreSystem).GetField("config", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(sapi.ModLoader.GetModSystem<SurvivalCoreSystem>()) is SurvivalConfig survivalConfig)
-            {
-                foreach (CollectibleObject obj in sapi.World.Collectibles)
-                {
+			if (typeof(SurvivalCoreSystem).GetField("config", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(sapi.ModLoader.GetModSystem<SurvivalCoreSystem>()) is SurvivalConfig survivalConfig)
+			{
+				foreach (CollectibleObject obj in sapi.World.Collectibles)
+				{
 					if (obj.Attributes != null && obj.Durability != 1) // Hopefully this is a decent check to make sure items have durability already
 					{
 						bool doModify = false;
@@ -99,9 +111,9 @@ namespace ToolworksAdditions
 							obj.Durability = (int)((float)obj.Durability * survivalConfig.ToolDurabilityModifier);
 						}
 					}
-                }
-            }
-        }
+				}
+			}
+		}
 
 		private void OnPlayerJoin(IServerPlayer player)
 		{

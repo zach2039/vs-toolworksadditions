@@ -1,3 +1,7 @@
+### v1.19.x-1.3.1
+
+ - Add compat with DanaTweaks ScytheMore module
+
 ### v1.19.x-1.3.0
 
  - Add compat with wildcraft trees; thanks to gabb!

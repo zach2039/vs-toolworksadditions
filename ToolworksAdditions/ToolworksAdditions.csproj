@@ -43,6 +43,10 @@
       <HintPath>ProspectTogether.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DanaTweaks">
+      <HintPath>DanaTweaks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

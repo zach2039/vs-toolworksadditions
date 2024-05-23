@@ -18,7 +18,7 @@ namespace ToolworksAdditions.Server
     /// </summary>
     [HarmonyPatchCategory("ToolworksAdditions_CollectibleBehaviorProspecting")]
     [HarmonyPatch(typeof(CollectibleBehaviorProspecting), "PrintProbeResults")]
-    class PrintProbeResultsPatch
+    class Patch_CollectibleBehaviorProspecting_PrintProbeResults
     {
         static void Postfix(CollectibleBehaviorProspecting __instance, IWorldAccessor world, IServerPlayer splr, ItemSlot itemslot, BlockPos pos)
         {

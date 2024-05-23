@@ -36,6 +36,8 @@ Changes include:
 
  * Add toolhandles of wood from [Wildcraft Trees](https://mods.vintagestory.at/wildcrafttree). Thanks to gabb!
 
+ * Add compatibility with DanaTweaks ScytheMore module.
+
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
 --------
