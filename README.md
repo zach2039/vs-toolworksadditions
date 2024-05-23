@@ -38,7 +38,7 @@ Changes include:
 
  * Add compatibility with [DanaTweaks](https://mods.vintagestory.at/danatweaks) ScytheMore module.
 
- * Add compatibility with [SurvivalExpanded](https://mods.vintagestory.at/survivalexpanded), fixing tool power to Toolworks tools.
+ * Add compatibility with [SurvivalExpanded](https://mods.vintagestory.at/survivalexpanded), fixing tool power for Toolworks tools.
 
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)
