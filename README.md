@@ -36,7 +36,9 @@ Changes include:
 
  * Add toolhandles of wood from [Wildcraft Trees](https://mods.vintagestory.at/wildcrafttree). Thanks to gabb!
 
- * Add compatibility with DanaTweaks ScytheMore module.
+ * Add compatibility with [DanaTweaks](https://mods.vintagestory.at/danatweaks) ScytheMore module.
+
+ * Add compatibility with [SurvivalExpanded](https://mods.vintagestory.at/survivalexpanded), fixing tool power to Toolworks tools.
 
 
 Config Settings (`VintageStoryData/ModConfig/ToolworksAdditions.json`)

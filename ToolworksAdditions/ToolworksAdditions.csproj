@@ -47,6 +47,10 @@
       <HintPath>DanaTweaks.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="SurvivalExpanded">
+      <HintPath>SurvivalExpanded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

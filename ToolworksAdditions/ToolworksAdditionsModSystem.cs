@@ -67,6 +67,13 @@ namespace ToolworksAdditions
 					harmony.PatchCategory("ToolworksAdditions_CollectibleBehaviorProspecting");
 					api.Logger.Notification("Applied ToolworksAdditions_CollectibleBehaviorProspecting compatibility patch for ProspectTogether from Toolworks Additions!");
 				}
+
+				// Mod compatibility with SurvivalExpanded, but only if that mod is present
+				if (ToolworksAdditionsConfig.Loaded.PatchToolworksCollectibleBehaviorProspectingPrintProbeResults && api.ModLoader.IsModEnabled("survivalexpanded"))
+				{
+					harmony.PatchCategory("ToolworksAdditions_ItemCompositeTool");
+					api.Logger.Notification("Applied ToolworksAdditions_ItemCompositeTool compatibility patch for SurvivalExpanded from Toolworks Additions!");
+				}
 			}
 
 			base.Start(api);
@@ -80,7 +87,7 @@ namespace ToolworksAdditions
 			{
 				if (api.ModLoader.IsModEnabled("danatweaks"))
 				{
-					ModCompat.DataTweaksCompat.ApplyDanaTweaksScytheMoreChanges(sapi);
+					ModCompat.CompatDanaTweaks.ApplyDanaTweaksScytheMoreChanges(sapi);
 
 					api.Logger.Notification("Applied DanaTweaks ScytheMore compatibility changes from Toolworks Additions!");
 				}

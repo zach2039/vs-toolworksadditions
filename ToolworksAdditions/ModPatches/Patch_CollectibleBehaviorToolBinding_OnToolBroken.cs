@@ -7,8 +7,8 @@ namespace ToolworksAdditions.ModPatches
 {
     [HarmonyPatchCategory("ToolworksAdditions_CollectibleBehaviorToolBinding")]
 	[HarmonyPatch(typeof(CollectibleBehaviorToolBinding), "OnToolBroken")]
-	public class Patch_CollectibleBehaviorToolBinding_OnToolBroken {
-		private static bool Prefix(CollectibleBehaviorToolBinding __instance, ItemStack partStack, ref bool breakPart)
+	class Patch_CollectibleBehaviorToolBinding_OnToolBroken {
+		static bool Prefix(CollectibleBehaviorToolBinding __instance, ItemStack partStack, ref bool breakPart)
 		{
             ItemStack glueStack = __instance.GetGlue(partStack);
             if (glueStack == null)

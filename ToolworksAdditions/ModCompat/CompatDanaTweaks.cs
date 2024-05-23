@@ -7,7 +7,7 @@ using Vintagestory.API.Server;
 
 namespace ToolworksAdditions.ModCompat
 {
-    public static class DataTweaksCompat
+    public static class CompatDanaTweaks
     {
         internal static void EnsureAttributesNotNull(CollectibleObject obj)
         {

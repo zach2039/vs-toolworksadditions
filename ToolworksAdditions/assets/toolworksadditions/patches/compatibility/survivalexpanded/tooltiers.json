@@ -1,0 +1,142 @@
+[
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/axe.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-bismuthbronze": -65,
+			"*-blackbronze": -70
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/falx.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-bismuthbronze": -65,
+			"*-blackbronze": -70
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/hoe.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-copper": 2,
+			"*-gold": 2,
+			"*-silver": 2,
+			"*-bismuthbronze": -65,
+			"*-tinbronze": 3,
+			"*-blackbronze": -70,
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5,
+			"*": 1
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-copper": 2,
+			"*-gold": 2,
+			"*-silver": 2,
+			"*-bismuthbronze": -65,
+			"*-tinbronze": 3,
+			"*-blackbronze": -70,
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5,
+			"*": 1
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/pickaxe.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-bismuthbronze": -65,
+			"*-blackbronze": -70
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/prospectingpick.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-bismuthbronze": -65,
+			"*-blackbronze": -70
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/saw.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-bismuthbronze": -65,
+			"*-blackbronze": -70
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-copper": 2,
+			"*-gold": 2,
+			"*-silver": 2,
+			"*-bismuthbronze": -65,
+			"*-tinbronze": 3,
+			"*-blackbronze": -70,
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5,
+			"*": 1
+		}
+	},
+	{   
+		"dependsOn": [
+			{ "modid": "survivalexpanded" }
+		],
+		"file": "toolworks:itemtypes/tool/spear.json",
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value":{
+			"*-copper": 2,
+			"*-gold": 2,
+			"*-silver": 2,
+			"*-bismuthbronze": -65,
+			"*-tinbronze": 3,
+			"*-blackbronze": -70,
+			"*-iron": 4,
+			"*-meteoriciron": 4,
+			"*-steel": 5,
+			"*": 1
+		}
+	}
+]

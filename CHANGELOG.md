@@ -1,3 +1,7 @@
+### v1.19.x-1.3.2
+
+ - Add tool power compat with SurvivalExpanded
+
 ### v1.19.x-1.3.1
 
  - Add compat with DanaTweaks ScytheMore module
